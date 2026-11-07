@@ -1,0 +1,17 @@
+# Render Blueprint: deploys this API as a free web service.
+# On Render: New + > Blueprint > pick your repository, or create a Web Service manually
+# with the same values (Root Directory: lab-03).
+services:
+  - type: web
+    name: lab-03-books-api
+    runtime: node
+    rootDir: lab-03
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: 22
+      - key: DB_PATH
+        value: ./books.db
