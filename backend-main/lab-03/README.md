@@ -1,6 +1,6 @@
 # Lab 3: REST API, query parameters, validation, debugging
 
-**Name:** YOUR NAME · **Registration number:** YOUR REG NO · **Section:** YOUR SECTION
+**Name:** Arnab Maji · **Registration number:** 252U1R9010 · **Section:** GEN-AI(304)
 
 **Live link:** https://YOUR-APP-NAME.onrender.com  *(replace after deploying, see "Deploy" below)*
 
